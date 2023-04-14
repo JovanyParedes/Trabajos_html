@@ -1,0 +1,320 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: wheat;
+}
+header {
+  background-color: wheat;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+header button {
+  background-color: #ed1c24;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+header button:hover {
+  background-color: #c4171d;
+}
+
+.section {
+  background-color: wheat;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.las-clasicas{
+  display: flex;
+  gap: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  
+}
+
+.tit{
+
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  padding-top: 10px ;
+  padding-left: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(66, 13, 13);
+  
+}
+#conteItemsCarrusel {
+  border: 20px solid wheat;
+  height: 300px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.itemCarrusel {
+  height: 100%;
+  position: relative;
+}
+
+.tarjetaCarrusel {
+  height: 100%;
+}
+.tarjetaCarrusel img{
+  width: 100%;
+  height: 100%;
+}
+
+.flechasCarrusel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flechasCarrusel a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+form input {
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+form button {
+  background-color: #ed1c24;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+form button:hover {
+  background-color: #c4171d;
+}
+
+.conteiner{
+  display: flex;
+  gap: 5rem;
+  padding-top: 0.5px;
+  height: 100%;
+  text-align: center;
+  padding-left: 70px;
+}
+.reg{
+  padding: 0 5rem;
+  background-color: orangered;
+}
+.regi{
+  border-bottom: 1px solid;
+  text-align: center;
+  height: 40px;
+  color:white;
+  padding-top: 5px;
+}
+.persona{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.control{
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 3.5px;
+  background: rgb(255, 255, 255);
+  border-color: white;
+}
+
+.boton{
+  text-align: center;
+}
+.button{
+  padding: 10px 50px;
+  background-color: wheat;
+}
+.las-clasicas{
+  display: flex;
+  width: 100%;
+}
+.las-de-pollo{
+  width: 100%;
+  display: flex;
+  gap: 1em;
+}
+.las-epicas{
+  width: 100%;
+  display: flex;
+  gap: 1em;
+}
+.card-title{
+  font-size: 15px;
+}
+.card-text{
+  font-size: 15px;
+} 
+.card-body{
+  background-color: bisque;
+  text-align: center;
+  color: rgb(66, 13, 13);
+}
+.card-img-top{
+  border-bottom: 1px solid black;
+}
+.pro h2{
+  color: rgb(66, 13, 13);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 768px) {
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  nav {
+    /* margin-top: 1rem; */
+    align-items: center;
+    gap: 3em;
+  }
+
+  nav ul {
+    flex-direction: flex;
+  }
+
+  nav li {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  form input {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+
+  form button {
+    width: 50%;
+  }
+  .tit{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 40px;
+  }
+  #conteItemsCarrusel {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .conteiner{
+    display: block;
+    text-align: center;
+    padding-left: 3px;
+    width: 100%;
+  }
+  .persona{
+    text-align: center;
+  }
+  .reg{
+    width: 100%;
+    padding: 0 5rem;
+  }
+  .registrarse{
+    padding: 20px;
+    padding-top: 10px;
+  }
+  .las-clasicas{
+    display: block;
+    width: 100%;
+    gap: 1em;
+    padding-left: 70px;
+    margin-bottom: 20px
+  }
+  .las-de-pollo{
+    width: 90%;
+    display: block;
+    gap: 1em;
+    padding-left: 70px;
+  }
+  .las-epicas{
+    width: 90%;
+    display: block;
+    gap: 1em;
+    padding-left: 70px;
+  }  
+}
